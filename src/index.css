@@ -1,0 +1,37 @@
+
+/* Table Tontainer */
+
+.container-table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2{
+  color: crimson;
+}
+.container-table .table {
+  border-collapse: collapse;
+  width: 500%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  font-size: 18px;
+  padding: 8px;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.pie{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: crimson;
+}
